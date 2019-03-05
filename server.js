@@ -31,13 +31,3 @@ var server = http.createServer(function(req, res) {
     });
 }).listen(8888);
 
-
-var mysql=require('mysql');
-
-//实现本地链接
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'SmileRose',
-    password: '123456',
-    database: 'blogback'
-})
